@@ -1,4 +1,29 @@
-#help {
-  font-size: 50%;
-  color: red;
+.navigation {
+  background-color: DimGrey;
+  margin: 0px;
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+}
+
+.navigation ul{
+  padding: 0px 10px;
+  margin: 0px;
+}
+
+.navigation li {
+  display: inline;
+}
+
+.navigation a {
+  color: white;
+  padding: 10px;
+}
+
+.navigation a:hover {
+  background-color: Grey;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
 }
