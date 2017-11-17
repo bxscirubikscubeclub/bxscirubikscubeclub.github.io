@@ -1,7 +1,7 @@
 .navigation {
-  background-color: DimGrey;
+  background-color: Black;
   margin: 0px;
-  padding: 20px 0px 20px 0px;
+  padding: 5px 0px 5px 0px;
   text-align: center;
 }
 
@@ -16,7 +16,11 @@
 
 .navigation a {
   color: white;
-  padding: 10px;
+  margin: 0px 5px 0px 5px;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 20pt;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
 }
 
 .navigation a:hover {
