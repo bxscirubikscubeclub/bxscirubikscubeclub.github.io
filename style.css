@@ -1,13 +1,17 @@
 .navigation {
-  background-color: Black;
+  background-color: rgb(40, 40, 40);
   margin: 0px;
   padding: 5px 0px 5px 0px;
-  text-align: center;
+  position: fixed;
+  width: 100%;
+  display: block;
 }
 
 .navigation ul{
+  display: block;
   padding: 0px 10px;
-  margin: 0px;
+  margin: auto;
+  width: 1000px;
 }
 
 .navigation li {
@@ -24,10 +28,20 @@
 }
 
 .navigation a:hover {
-  background-color: Grey;
+  background-color: rgb(80, 80, 80);
 }
 
 body {
   padding: 0px;
   margin: 0px;
+  background: rgb(210, 210, 210);
+}
+
+.content {
+  display: block;
+  width: 1000px;
+  padding: 0px;
+  margin: auto;
+  background: white;
+  height: 100%;
 }
