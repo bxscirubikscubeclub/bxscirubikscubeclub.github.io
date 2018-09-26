@@ -1,0 +1,25 @@
+.content p {
+  font-size: 20px;
+  margin: 0px;
+  padding: 10px;
+}
+
+#President {
+  padding-top: 60px;
+}
+
+.content * {
+  margin: 0px;
+  padding: 10px;
+}
+
+.content h3{
+  font-size: 40px;
+  margin: 0px;
+  padding-bottom: 0px;
+}
+
+.content .info {
+  margin-left: 40px;
+  padding: 0px;
+}

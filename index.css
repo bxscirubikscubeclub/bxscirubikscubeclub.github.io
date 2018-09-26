@@ -1,7 +1,15 @@
-img {
+.banner {
   display: block;
-  width: 1000px;
+  width: 900px;
   margin: auto;
+}
+
+.content img {
+  display: block;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
 }
 
 .content * {
@@ -16,7 +24,13 @@ img {
 }
 
 .content p{
-  font-size: 20px;
+  font-size: 22px;
   margin: 0px;
-  padding: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+}
+
+.description {
+  text-align: center;
 }
